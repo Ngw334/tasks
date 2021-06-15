@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+/*Task1: take an integer array from user and print the square of each elements of the array .*/
+
 
 int square(int n)
 {
