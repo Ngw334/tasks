@@ -2,6 +2,9 @@
 #include <vector>
 using namespace std;
 
+/*Taks 3: an array is given , we have to insert the value v at the position of the another value p present in the array ,
+where the v and q are taken input from the user*/
+
 int hasIndex(vector <int> v, int p)
 {
   for(int i =0; i< v.size(); i++)
