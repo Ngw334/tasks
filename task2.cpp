@@ -2,6 +2,8 @@
 #include <vector>
 using namespace std;
 
+/*Task2: Create an array of marks and find the total marks by taking the size of the array as an input form user. */
+
 int main()
 {
   int n;
