@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+/*Task4: Insert an element in the begining and the end of a given array. */
+
 
 vector <int> insertBegin(vector <int> v, int x)
 {
