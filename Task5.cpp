@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+/*Task5 : Delete an element v from a its position in the array. */
 int hasIndex(vector <int> v , int x)
 {
   for(int i = 0; i < v.size() ; i++)
