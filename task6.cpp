@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+/*Task6: Merge two array one after another. */
 
 int main()
 {
