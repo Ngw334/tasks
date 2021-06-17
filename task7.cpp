@@ -22,33 +22,29 @@ void swap(int * a, int * b)
 {
   *a = *b;
   *b = *a;
-}
-
-vector <int> sort(vector <int> vSort)
-  {
-    for(int i = 0; i < vSort.size(); i++)
-    {
-      if(vSort[i] > vSort[i+1])
-      {
-        swap(vSort[i], vSort[i+1]);
-        continue;
-      }
-    }
-    return vSort;
-  }  
+} 
 
 vector <int> sortedArray(vector <int> v1, vector <int> v2)
 {
-  vector <int> vMerged;
-  vector <int> result;
-  vMerged = mergedArray(v1,v2);
+  vector <int> vMerged = mergedArray(v1,v2);
   
-  for(int j = 0; j < vMerged.size();j++)
+  for(int i = 0; i < (vMerged.size() - 1); i++)
   {
-    result = sort(vMerged); 
+    if(vMerged[i] > vMerged[i+1])
+    {
+      swap(vMerged[i], vMerged[i+1]);
+    }
+    for(int j = 0; j< vMerged.size(); j++)
+    {
+      if(vMerged[j] > vMerged[j+1])
+      {
+        i = j - 1;
+        break;
+      }
+    }
   }
   
-  return result;
+  return vMerged;
 }
 
 int main()
