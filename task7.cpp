@@ -18,11 +18,13 @@ vector <int> mergedArray(vector <int> v1, vector <int> v2)
   return vFinal;
 }
 
-void swap(int * a, int * b)
+void swaap(int &a, int &b)
 {
-  *a = *b;
-  *b = *a;
-} 
+  int x = a;
+  a = b;
+  b = x;
+}
+
 
 vector <int> sortedArray(vector <int> v1, vector <int> v2)
 {
@@ -32,7 +34,7 @@ vector <int> sortedArray(vector <int> v1, vector <int> v2)
   {
     if(vMerged[i] > vMerged[i+1])
     {
-      swap(vMerged[i], vMerged[i+1]);
+      swaap(vMerged[i], vMerged[i+1]);
     }
     for(int j = 0; j< vMerged.size(); j++)
     {
