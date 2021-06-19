@@ -31,7 +31,7 @@ int main()
    } 
    
    vector <int> finalResult;
-   for(int i = D; i <= N - D + 1; i++)
+   for(int i = D; i < N ; i++)
    {
      finalResult.push_back(initialArray[i]);
    }
