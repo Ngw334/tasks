@@ -31,7 +31,9 @@ int main()
   cout<<"Enter the elements : ";
   for(int i = 0; i < N; i++)
   {
-    cin>> arr[i];
+    int x;
+    cin>> x;
+    arr.push_back(x);
   }
   
   if(N == 1){cout << arr[0] << " is the only element present in the array.";}
