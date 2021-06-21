@@ -11,7 +11,7 @@ using namespace std;
        as 7 + 8 <-5-> 9 + 6,,, The sum on both sides is the same. i.e. 15.
   */
 
-int sum(int arr[], int a, int b)
+int sum(vector <int> arr, int a, int b)
 {
   int sum = 0;
   for(int i =a; i<= b; i++)
@@ -27,7 +27,7 @@ int main()
   cout<<"Give the no of elements in the array : ";
   cin>> N;
   
-  int arr[N];
+  vector <int> arr;
   cout<<"Enter the elements : ";
   for(int i = 0; i < N; i++)
   {
