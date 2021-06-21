@@ -2,6 +2,14 @@
 #include <vector>
 using namespace std;
 
+/*
+ You are given an array of N size. Find the maximum possible subarray such that its elements are arranged alternately 
+ either even and odd or odd and even.
+ Ex:: Input : a[] = {10,14,12,7,8}
+      Output : 3 
+      Explanation : That subarray is {12,7,8}.
+*/
+
 int max(int a,int b)
 {
   if(a > b){return a;}
