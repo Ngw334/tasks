@@ -3,7 +3,7 @@
 using namespace std;
 
 /*
-  Given an arry of N integers including 0 as an element. 
+  Given an sorted arry of N positive integers including 0 as an element. 
   Task is to find the smallest missing positive integer in the array.
   Ex:: Input: a[]={0,2,3,4,6,8}
        Output: 1
