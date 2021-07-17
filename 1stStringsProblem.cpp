@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
+/*Q1 Convert all the uppercase characters in string to lowercase characters*/
 int main()
 {
   string s;
