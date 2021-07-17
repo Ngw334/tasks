@@ -2,6 +2,9 @@
 #include <vector>
 #include <string>
 using namespace std;
+/*Q9- Given a string s, reverse the order of characters in each word within a sentence while
+      still preserving the whitespaces and initial word order.
+  */
 
 vector <int> whitespaceIndex(string s)
 {
