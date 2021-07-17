@@ -1,7 +1,11 @@
 #include <iostream>
 #include <string>
 using namespace std;
-/*Q6-
+/*Q6- Count the umber of segments in the given string;
+  ex:: 1}input-> "Hello my name is john" /Output -> 5{'Hello', 'my', 'name', 'is', 'john'}
+       2} i= "hello" /o = 1{'hello'}
+       3} i = "", /o = 0
+       4} i = "MY nme: :: , <>"/ o =5{'MY', 'nme:', '::', ',', '<>'}
   */
 int noOfSegments(string s)
 {
