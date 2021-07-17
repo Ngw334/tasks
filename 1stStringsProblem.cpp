@@ -6,7 +6,7 @@ int main()
 {
   string s;
   cout<< "Give the string : ";
-  cin>> s;
+  getline(cin,s);
   cout<< endl;
   
   for(int i = 0; i < s.size(); i++)
