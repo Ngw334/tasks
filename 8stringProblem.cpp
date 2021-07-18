@@ -1,7 +1,10 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
+/*Q-Given  attendance in form of strig which contains only A, P, L for absent , present and late consecutively.
+    Student with less than 2 absenties in total and not being late for consecutive 3 days or more will get a award.
+    Write the program to find the awardee.
+*/
 bool isAbsent(string s)
 {
   int result = 0;
