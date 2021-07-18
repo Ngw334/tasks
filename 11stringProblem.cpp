@@ -1,6 +1,9 @@
 #include <iostream>
 #include <string>
 using namespace std;
+/*Q- Given a string s , return true if it gives a palindrome after deleting at most one character from it.
+input consists of lower case english alphabets only.
+*/
 
 bool isPalindrome(string s)
 {
