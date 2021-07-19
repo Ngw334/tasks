@@ -1,5 +1,9 @@
 #include <iostream>
+#include <string>
 using namespace std;
+/*Q- string s contains unique characters which are jwells. Find the no. of jwells in the other string by comparing the string 
+with each other.Input is case sensitve. 
+*/
 
 int noOfJwells(string a, string b)
 {
