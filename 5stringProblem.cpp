@@ -1,6 +1,9 @@
 #include <iostream>
 #include <string>
 using namespace std;
+/*Q- Given two strings s and t return true if they are anagram and false otherwise.
+Input of twwo strings contains oonly lower case english alphabets.
+*/
 
 string Ndelete(string a, int n)
 {
