@@ -1,6 +1,12 @@
 #include <iostream>
 #include <string>
 using namespace std;
+/*Q-Givwn two non negative integers a and b re[reseted as strings, return the 
+   sum of the a and b as a string.
+   you must solve the problem without uysing any built in library for handling
+   large integers (such as BigIntegers). you must also not convert the inputs 
+   to integers directly.
+*/
 
 string reverse(string a)
 {
