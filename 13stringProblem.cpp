@@ -1,6 +1,18 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+/*Q- Given a string licencePlat and an array of strings  words, find the shortest 
+completing word in words.
+A completing word is a word that contain all the letters in licencePlate. Ignore
+spaces in licencePlate, and treat letters as case insensitive , if a letter appears
+more than once in licencePlate , then it must appear in the word the same number of times
+or more. 
+for ex.: if licencePlate  = "abc 12c" then it contains letters 'a', 'b'(ignoring
+cases) and 'c' twice. Possible completing words are "abccdef", "caaacab" and
+"cabc".
+Return the shortest completing word in words. It is guaranteed an answer exists.
+If there are multiple shortest completing words, return the first one thatt occurs in words.
+*/
 
 //to remove the spaces and numbers in the string
 string removespaces(string a)
@@ -148,14 +160,14 @@ int main()
   int N;
   cout<< "Give the no of elements in an works. : ";
   cin>> N;
-  vector <string> works = {};
+  vector <string> words = {};
   for(int i = 0; i < N; i++)
   {
     string c;
     cin>> c;
-    works.push_back(c);
+    words.push_back(c);
   }
   
-  cout<< returnResult(works,licencePlate);
+  cout<< returnResult(words,licencePlate);
     
 }
