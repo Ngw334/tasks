@@ -9,7 +9,7 @@ using namespace std;
   */
 int noOfSegments(string s)
 {
-  if(s == "")
+  if(s.size()==0)
   {
     return 0;
   }
